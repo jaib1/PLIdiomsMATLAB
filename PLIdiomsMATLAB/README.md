@@ -1,9 +1,8 @@
-This repository contains examples of using classic functional and object-oriented programming language idioms in MATLAB. Most of the files contained in the "Functional" folder are very short (~10-20 lines of code) and serve mainly to illustrate how MATLAB can do some operations in a classically functional way. For some of these examples, MATLAB has built-ins which are more much more efficient than the functions I've created (which I've done my best to note within the files themselves). In practice, a programming language's built-ins should virtually always be used over user-created output-equivalent code. 
+This repository contains examples of using classic functional and object-oriented programming language idioms in MATLAB. Most of the files contained in the "Functional" folder are very short (~10-20 lines of code) and serve mainly to illustrate how MATLAB can do some operations in a classically functional way. For some of these examples, MATLAB has built-ins which are more much more efficient than the functions I've created (which I've done my best to note within the files themselves). In practice, a programming language's built-ins should virtually always be used instead of user-created output-equivalent code. 
 
-To understand the actual implementation of these functions, it is often useful to use MATLAB's debugger to step through a function call as it's running. Note that almost all of these concepts are decades-old programming language concepts, and none have I come up with myself (only the implementation). If you'd like more information on these concepts, a web search will usually work best, but I can also try and point you in the right direction. Please feel free to fork, add/edit, and pull request, and create comments/issues within github!
+To understand the implementation of these functions, it may be helpful to use MATLAB's debugger to step through a function call as it's running. Note that almost all of these concepts are decades-old, and none have I come up with myself (only the implementation). If you'd like more information on these concepts, a web search will usually work best, but I can also try and point you in the right direction. Please feel free to fork, add/edit, and pull request, and create comments/issues within github!
 
-- Jai Bhagat
-- j.bhagat@ucl.ac.uk  
+Jai Bhagat - j.bhagat@ucl.ac.uk  
 
 ## File Description:
 
