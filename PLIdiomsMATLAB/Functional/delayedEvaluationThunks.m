@@ -1,7 +1,7 @@
 % example of using delayed evaluation with thunks
 
-% A "thunk" is the idea of encapsulating an operation in a zero-argument
-% function to delay that operation's evaluation.example: let's say, 
+% A "thunk" is the encapsulation of an operation in a zero-argument
+% function to delay that operation's evaluation. example: let's say, 
 % depending on some condition (based on 'x') we need to return either an 
 % evaluation of 'a*a' or 'b*b'. below is the standard way to approach this:
 
