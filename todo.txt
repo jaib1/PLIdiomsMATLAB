@@ -7,3 +7,17 @@ todo works?
 @fixme fixdoes?
 
 TODO TODOES?
+
+todo works?
+
+@todo todoes?
+
+@fixme fixdoes?
+
+@todo @body check if this todo bot works. works x2?
+works?
+works?
+works?
+works?
+works?
+works?
