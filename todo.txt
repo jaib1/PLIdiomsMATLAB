@@ -1,3 +1,7 @@
 todo @body check if this todo bot works. works x2?
 
 todo works?
+
+@todo todoes?
+
+@fixme fixdoes?
