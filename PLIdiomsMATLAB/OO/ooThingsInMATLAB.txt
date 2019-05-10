@@ -2,7 +2,7 @@ Classes:
 	- class constructor methods & dependency injection
 	- designing subclass constructors from superclass constructors
 	- composition (interface) inheritance vs. implementation inheritance
-	- multiple inheritance
+	- multiple inheritance & mix-ins
 	- Enumeration Classes
 	- importing classes
 	- class destructor methods
@@ -67,3 +67,8 @@ Extras:
 	- Property Initialization Order Dependency
 	- Class Introspection and Metadata
 	- Class arrays and class hierarchical heterogeneous arrays
+
+Design Patterns:
+	- (Creational) Abstract Factory*; Factory Method*; Prototype
+	- (Structural) Composite*; Decorator*; Facade; Flyweight
+	- (Behavioral) State*; Chain of Responsibility; Command;  Observer; Visitor; Mediator; Visitor; Strategy; Interpreter
