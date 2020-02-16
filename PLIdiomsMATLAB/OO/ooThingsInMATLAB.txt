@@ -1,0 +1,74 @@
+Classes:
+	- class constructor methods & dependency injection
+	- designing subclass constructors from superclass constructors
+	- composition (interface) inheritance vs. implementation inheritance
+	- multiple inheritance & mix-ins
+	- Enumeration Classes
+	- importing classes
+	- class destructor methods
+
+	- Attributes:
+		- Abstract
+		- AllowedSubclasses
+		- ConstructOnLoad
+		- Inferior Classes (for overloaded graphics functions)
+		- Sealed
+
+
+Properties:
+	- Constant Properties
+	- Dynamic (Instance) Properties
+	- Static Data
+	- Property get/set methods
+	- Property events/listeners ('event.proplistener')
+
+	- Attributes:
+		- AbortSet
+		- Abstract
+		- Access
+		- GetAccess
+		- SetAccess
+		- Constant
+		- Dependent
+		- GetObservable
+		- SetObservable
+		- Hidden
+		- NonCopyable
+		- Transient
+
+Methods:
+	- Static Methods
+	- using class methods as package methods with "@"
+	- overloading methods (including customizing object indexing)
+
+	Attributes:
+		- Abstract
+		- Access
+		- Hidden
+		- Sealed
+		- Static
+
+Events (& Listeners):
+	- trigger events for listeners both tied and untethered to event source ('notify')
+	- determine if any listeners currently exist for event ('event.haslistener')
+	- deactivate and reactivate listeners
+	- pass extra event data to a listener callback ('notify(obj, 'evt', evtdata)) by subclassing 'event.EventData' and adding a new property to that subclass
+	- execute listeners in a specific order
+	- have a listener recursively trigger the same event (via the 'Recursive' property of a listener object) - (but make sure the listener callback changes the object data in some way such that infinite recursion does not occur)
+	- save and restore a listener
+
+	Attributes:
+		- Hidden
+		- ListenAccess
+		- NotifyAccess
+
+Extras:
+	- Save and Load Process for Objects
+	- Property Initialization Order Dependency
+	- Class Introspection and Metadata
+	- Class arrays and class hierarchical heterogeneous arrays
+
+Design Patterns:
+	- (Creational) Abstract Factory*; Factory Method*; Prototype
+	- (Structural) Composite*; Decorator*; Facade; Flyweight
+	- (Behavioral) State*; Chain of Responsibility; Command;  Observer; Visitor; Mediator; Visitor; Strategy; Interpreter
